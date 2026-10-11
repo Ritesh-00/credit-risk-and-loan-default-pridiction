@@ -1,0 +1,24 @@
+export const RISK_LEVELS = {
+  LOW: 'LOW',
+  MEDIUM: 'MEDIUM',
+  HIGH: 'HIGH',
+};
+
+export const DECISIONS = {
+  APPROVED: 'APPROVED',
+  MANUAL_REVIEW: 'MANUAL_REVIEW',
+  REJECTED: 'REJECTED',
+};
+
+export const RISK_THRESHOLDS = {
+  LOW_MAX: 0.03,
+  OPTIMAL_DEFAULT: 0.05,
+  MEDIUM_MAX: 0.10,
+};
+
+export const MODEL_STATUS = {
+  NOT_TRAINED: 'NOT_TRAINED',
+  TRAINED: 'TRAINED',
+  READY: 'READY',
+  DEGRADED: 'DEGRADED',
+};
