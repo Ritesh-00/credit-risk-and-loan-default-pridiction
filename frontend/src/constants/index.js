@@ -1,4 +1,4 @@
-export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api/v1';
+export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://backend-63kh.onrender.com/api/v1';
 export const ML_DIRECT_URL = import.meta.env.VITE_ML_SERVICE_URL || 'https://ml-service-2ne2.onrender.com/api/v1';
 
 export const OPTIMAL_THRESHOLD = 0.05;
